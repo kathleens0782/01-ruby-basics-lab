@@ -1,23 +1,23 @@
-def division
-    
+def division(first,second)
+   first/second
 end
 
-def argue
-  
+def argue(argument)
+  "#{argument}"
 end
 
-def greeting
-
+def greeting(greet, person)
+   "#{greet} there, #{person}."
 end
 
 def return_a_value
-    
+    "Nice"
 end
 
-def pizza_party
-    
+def pizza_party(top1="cheese", *top2)
+    "#{top1}"
 end
 
-def whisper
-    
+def whisper(message)
+    "#{message.downcase}"
 end
